@@ -3,7 +3,7 @@ class MainView < UIView
   def init
     super
 
-    setBackgroundColor UIColor.whiteColor
+    self.backgroundColor = UIColor.whiteColor
 
     addSubview(@name_label = UILabel.new)
     addSubview(@extra_details_label = UILabel.new)
